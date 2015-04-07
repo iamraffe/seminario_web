@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'OxygenRegular';
+  src: url('../../fonts/OxygenRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'OxygenRegular';
+  src: url('../../fonts/Oxygen-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'OxygenLight';
+  src: url('../fonts/Oxygen-Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+@font-face {
+  font-family: 'OxygenBold';
+  src: url('../fonts/Oxygen-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+body {
+  font-family: 'OxygenRegular', serif;
+  background: transparent;
+  color: black;
+  font-size: 12px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.container_12{
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+  min-height:600px;
+}
+
+.container_12  > p {
+	font-family: 'OxygenRegular', serif;
+	border: 1px solid #666;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+}
+
+
+.footer{
+	margin-top:25px;
+	border-top: 2px double black;
+	/*position:absolute;*/
+	
+}
+
+h1 {
+	font-size: 25px;
+  font-family: 'OxygenRegular', serif;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+	font-family: 'OxygenRegular', serif;
+	font-size:25px;
+	text-align: center;
+	margin-top:25px;
+}
+
+h3 {
+	font-size:12px;
+	margin-top:15px;
+}
+
+a {
+  color: black;
+  font-family: 'OxygenRegular', serif;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul{
+	list-style:none;
+
+}
+
+p {
+	font-family: 'OxygenRegular', serif;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+form{
+	line-height: 24px;
+}
+button > p{
+	margin: 0 auto;
+	text-align:center;
+	padding:0px;
+	font-family: 'OxygenRegular',serif;
+	font-size:11px;
+}
+
+.invisible{
+	visibility:hidden;
+}
+
+.clickable{
+	cursor:pointer;
+}
+.no_click{
+	cursor: default !important;
+}
+
+.displaysInline *{
+	display:inline !important;
+}
+.center, .center *{
+	text-align:center !important;
+}
+
+/* POSTING SERVICE */
+
+.postingService{
+	font-family:'OxygenRegular',serif;
+	padding-top: 25px;
+	padding-bottom:35px;
+
+}
+.postingService form{
+	margin-left: auto;
+	margin-right: auto;
+}
+.postingService input, textarea{
+	margin-bottom: 20px;
+	width:50%;
+	display:block;
+	padding:5px;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+.postingService textarea{
+	height: 400px;
+}
+.postingService .button{
+	float:right;
+	margin-left: 35px;
+	width:100px;
+	margin-top:20px;
+	height:30px;
+
+}
+.postingService select{
+	width:35%;
+	text-align:center;
+	margin-bottom:35px;
+	display:block;
+}
+.postingService label{
+	display:block;
+	font-family:'OxygenRegular',serif;
+	font-size:20px;
+}
+table {
+    border-collapse: collapse;
+	width: 925px;
+	border: 1px solid #3E1668;
+}
+th{
+	color: white;
+	font-family:'OxygenRegular',serif;
+	font-size:16px;
+}
+th, td {
+	padding: 12px;
+    border-bottom: 1px solid #3E1668;
+}
+.menu{
+	margin-top: 55px;
+	color: #3E1668;
+	font-family:'OxygenRegular',serif;
+	font-size:16px;
+}
+
+.menu a{
+	color: #3E1668;
+	font-family:'OxygenRegular',serif;
+	font-size:14px;
+}
+.menu a:visited{
+	color: #3E1668;
+	font-family:'OxygenRegular',serif;
+	font-size:16px;
+}
+.login{
+	font-family:'OxygenRegular',serif;
+	margin-top: 125px;
+
+}
+.login form{
+	margin-top:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login label{
+	display:block;
+	margin-bottom:15px;
+	text-align: center;
+	font-family:'OxygenRegular',serif;
+	font-size:20px;
+}
+.login input{
+	margin-bottom: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	display:block;
+	padding:5px;
+	border: 1px solid #999;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.login .button{
+	margin-right: 235px;
+	float:right;
+	width:100px;
+	margin-top:20px;
+	height:30px;
+}
+.headers{
+	background:#3e1668;
+	color: white; 
+	text-align: left;
+}
+.subheader{
+	color: #3e1668;
+	text-align:center;
+	font-size:15px;
+}
+hr {height: 24px; background: url('../../images/favicon.png') no-repeat 50% 50%; border: 0;}
